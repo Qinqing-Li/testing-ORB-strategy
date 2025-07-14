@@ -28,8 +28,7 @@ To run backtesting, you need to register for Alpaca Market API to obtain data. (
 | **Trades**         | 973              | 980             |
 
 > commission + AutoFX dominate P&L at small
-> capital. At £100,000 the same rules yield net Sharpe ≈ **–0.29**
-> (still negative but less corrosive).
+> capital, and the size of capital impact the sharpe. At £100,000 the same rules yield net Sharpe ≈ **–0.29**, at £1,000,000 Sharpe ≈ **1.02**, At £5,000,000 Sharpe ≈ **1.11**.
 
 Live trading: I'm assuming IBKR TWS API (hence the cost model) for obtaining live data once strategy is ready for paper trading or production.
 
