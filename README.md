@@ -27,8 +27,7 @@ To run backtesting, you need to register for Alpaca Market API to obtain data. (
 | **Total return**   | 110 %            | –38 %           |
 | **Trades**         | 973              | 980             |
 
-> commission + AutoFX dominate P&L at small
-> capital, and the size of capital impact the sharpe. At £100,000 the same rules yield net Sharpe ≈ **–0.29**, at £1,000,000 Sharpe ≈ **1.02**, At £5,000,000 Sharpe ≈ **1.11**.
+> commission + AutoFX dominate P&L at small capital, and the size of capital impact the Sharpe. At £100,000 the same rules yield net Sharpe ≈ **–0.29**, at £1,000,000 Sharpe ≈ **1.02**, At £5,000,000 Sharpe ≈ **1.11**. (Purely a thought experiment, impossible to have £1M in UK ISA besides the cost model would be different for larger capital.)
 
 Live trading: I'm assuming IBKR TWS API (hence the cost model) for obtaining live data once strategy is ready for paper trading or production.
 
