@@ -35,7 +35,7 @@ Live trading: I'm assuming IBKR TWS API (hence the cost model) for obtaining liv
 
 *Update  ·  3 August 2025*
 
-Testing whether Narrow Range filter (NR7, NR14, NR30) improve the strategy. Short answer: no.  
+Testing whether Narrow Range filter (NR7, NR14, NR30) (daily, absolute range) improve the strategy. Short answer: no.  
 
 #### Results (AAPL 2020-2025, £10,000 start, no cost)
 
