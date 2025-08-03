@@ -31,6 +31,21 @@ To run backtesting, you need to register for Alpaca Market API to obtain data. (
 
 Live trading: I'm assuming IBKR TWS API (hence the cost model) for obtaining live data once strategy is ready for paper trading or production.
 
-<br>
+---
+
+*Update  ·  3 August 2025*
+
+Testing whether Narrow Range filter (NR7, NR14, NR30) improve the strategy. Short answer: no.  
+
+#### Results (AAPL 2020-2025, £10,000 start, no cost)
+
+| Filter     | Sharpe | Total Return | Trades | Win Rate | Avg Gain/Trade | Profit Factor |
+|------------|--------|---------------|--------|-----------|----------------|----------------|
+| **None**   | 1.64  | 110.49%     | 973    | 47.03%    | $11.39         | 1.44           |
+| **NR7**    | 0.79   | 11.87%        | 155    | 52.90%    | $7.66          | 1.50           |
+| **NR14**   | 0.69   | 8.04%         | 90     | 54.44%    | $8.93          | 1.63           |
+| **NR30**   | 0.46   | 3.47%         | 43     | 51.16%    | $8.08          | 1.60           |
+
+> Narrow Range filters marginally improve win rate and profit factor, but reduce overall expected returns.
 
 *Everything here is research-only, not investment advice.*
